@@ -1,0 +1,5 @@
+1-4:
+  judge   : !file ../common/multijudge.py
+  io      : !file io.zip
+  memory  : 128MB
+  time    : 5s

@@ -1,0 +1,5 @@
+0:
+  !include : ../common/test.yaml
+  input    : !file 0.in
+  hint     : !file 0.out
+  time     : 5s
