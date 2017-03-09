@@ -3,7 +3,6 @@ unzip $1 -d $2
 cd $2
 ins=`ls *.in`
 outs=`ls *.out`
-declare -i numtests=`ls *.in | wc -l`
 declare -i n=0
 for i in *.in
 	do
